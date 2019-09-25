@@ -189,8 +189,5 @@ body > table > tbody > tr:nth-child(n) > td:nth-child(n) > div > img
     width: 80px;
     height: 110px;
 }
-body > form > img {
-     width: 500px;
-    height: 600px;
-}
+
 

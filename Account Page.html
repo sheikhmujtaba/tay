@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://wdd.centre.edu:3000/updateAccount -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+
+    Account Page
+    
+    </title>
+<link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <div class="header">
+      
+      <div class="person_info">
+  <img src="./Account Page_files/student19.png" class="person_image">
+  <audio id="nameSound19">
+    <source src="/names/student19.png" type="audio/ogg">
+  </audio>
+  <div class="sound" onclick="document.getElementById(&quot;nameSound19&quot;).play()" '="">
+  </div>
+
+  <span class="username">
+    Tay Moss
+  </span>
+  
+</div>
+      
+        <div class="nav">
+        <a href="http://wdd.centre.edu:3000/logout">logout</a>
+        <a href="http://wdd.centre.edu:3000/updateAccount">myAccount</a>
+        <a href="http://wdd.centre.edu:3000/home">Home</a>
+        <a href="http://wdd.centre.edu:3000/classMates">ClassMates</a>
+        <a href="http://wdd.centre.edu:3000/seating">Seating</a>
+        
+        
+        <a href="http://wdd.centre.edu:3000/grades">Grades</a>    
+            
+      </div>
+       
+    </div>
+    <div class="special" id="special1"></div>
+    <div class="special" id="special2"></div>
+    <div class="special" id="special3"></div>
+<form class="account_form" action="http://wdd.centre.edu:3000/updateAccount" method="post" enctype="multipart/form-data">
+
+<div class="title">
+  Update your account
+</div>
+
+<label>First Name</label>
+<input type="text" name="person_first_name" value="Taysean ">
+<label>Prefered Name</label>
+<input type="text" name="person_prefered_name" value="Tay ">
+<label>Last Name</label>
+<input type="text" name="person_last_name" value="Moss ">
+<label>Prefered Pronouns</label>
+<input type="text" name="person_prefered_pronoun" value="He/Him /His ">
+<label>What Cause drives you? </label>
+<input type="text" name="cause_desc" value="Family ">
+
+
+<label>Your Profile Picture</label>
+<img class="person_image" src="./Account Page_files/student19.png" alt="Tay Moss">
+
+<input type="file" name="person_image_file" value="Upload New Picture">
+
+<label>Your spoken name, in OGG format</label>
+<input type="file" name="person_voice_name_file" value="Upload OGG sound">
+
+<label> Your prefered CSS account </label>
+<input type="text" name="person_css" value="https://sheikhmujtaba.github.io/tay/main.css">
+
+<input type="submit" name="account_submit" value="Update">
+
+
+
+</form>
+  
+
+</body></html>
