@@ -177,3 +177,8 @@ th, td
     border: 1px solid #3BFFF0; 
     border-radius:
 }
+body > table > tbody >  div > img{
+    height: 300 px;
+    width: 95 px;
+    border-style: solid;
+}
