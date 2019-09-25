@@ -185,3 +185,8 @@ body > table > tbody >  div > img{
     width: 95 px;
     border-style: solid;
 }
+body > form > img{
+    height: 300 px;
+    width: 100 px; 
+    border-style: solid;
+}
